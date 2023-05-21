@@ -21,7 +21,8 @@ Route::get('/pdf/{filename}', function ($filename) {
     $path = public_path('pdfs/' . $filename);
 
     if (file_exists($path)) {
-        return response()->file($path);
+        $secureUrl = secure_asset('pdfs/' . $filename);
+        return redirect()->to($secureUrl);
     } else {
         abort(404);
     }
