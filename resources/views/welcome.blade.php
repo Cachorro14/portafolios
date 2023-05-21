@@ -466,7 +466,7 @@
                             I. Algoritmo
                         </h2>
                         <div  class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'I. Algoritmo, Beleche Alondra (1).pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/I. Algoritmo, Beleche Alondra (1).pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -476,7 +476,7 @@
                             II. Tipos de datos
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'II. Tipos de datos, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/II. Tipos de datos, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -486,7 +486,7 @@
                             III. Programación estructurada
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'III. Programación estructurada, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/III. Programación estructurada, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -496,7 +496,7 @@
                             IV. Fases de la creación de un programa
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'IV. Fases de la creación de un programa, Beleche Alondra (1).pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/IV. Fases de la creación de un programa, Beleche Alondra (1).pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -506,7 +506,7 @@
                         Estructura de control secuencial
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Estructura de control secuencial, Beleche Alondra (1).pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Estructura de control secuencial, Beleche Alondra (1).pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -516,7 +516,7 @@
                         RESEÑA
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'RESENA Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/RESENA Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -526,7 +526,7 @@
                         Estructura de control selectiva simple y doble
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Estructura de control selectiva simple y doble, Beleche Alondra (2).pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Estructura de control selectiva simple y doble, Beleche Alondra (2).pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -536,7 +536,7 @@
                         Estructura de control selectiva multiple
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Estructura de control selectiva multiple, Beleche Alondra (1).pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Estructura de control selectiva multiple, Beleche Alondra (1).pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -546,7 +546,7 @@
                         Selectiva anidada
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Practica 20. Selectiva anidada, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Practica 20. Selectiva anidada, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -556,7 +556,7 @@
                         Contador, acumulador y bandera
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Contador, acumulador y bandera, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Contador, acumulador y bandera, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -566,7 +566,7 @@
                         Estuctura while, 21,22,23
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Estuctura while, 21,22,23; Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Estuctura while, 21,22,23; Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -576,7 +576,7 @@
                         Estructura Do while, 24, 25 y 26
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Estructura Do while, 24, 25 y 26; Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Estructura Do while, 24, 25 y 26; Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -586,7 +586,7 @@
                         Estructura For 27, 28, 29 y 30
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Estructura For 27, 28, 29 y 30;  Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Estructura For 27, 28, 29 y 30;  Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -596,7 +596,7 @@
                         For anidadas
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'For anidadas, Beleche Alondra (1).pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/For anidadas, Beleche Alondra (1).pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -606,7 +606,7 @@
                         Arreglos unidimensionales
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Arreglos unidimensionales, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Arreglos unidimensionales, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -616,7 +616,7 @@
                         Teoría de arreglos
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Teoría de arreglos, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Teoría de arreglos, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -626,7 +626,7 @@
                         Arreglos bidimensionales
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Arreglos bidimensionales, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Arreglos bidimensionales, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -636,7 +636,7 @@
                         Investigación de arreglos bidimensionales
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Investigación de arreglos bidimensionales, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Investigación de arreglos bidimensionales, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -646,7 +646,7 @@
                         Investigación Cadenas
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Investigación Cadenas, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Investigación Cadenas, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -656,7 +656,7 @@
                         Resumen funciones
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Resumen funciones, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Resumen funciones, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -666,7 +666,7 @@
                         Tipos de datos primitivos
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Tipos de datos primitivos, Beleche Alondra.pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Tipos de datos primitivos, Beleche Alondra.pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -676,7 +676,7 @@
                         Funciones sin parametros por valor
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Funciones sin parametros por valor, Beleche Alondra (1).pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Funciones sin parametros por valor, Beleche Alondra (1).pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -686,7 +686,7 @@
                         Funciones con paso de parametros por valor
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Funciones con paso de parametros por valor, Beleche Alondra (1).pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Funciones con paso de parametros por valor, Beleche Alondra (1).pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                         <h2
@@ -696,7 +696,7 @@
                         Prototipo de funciones y paso de parametros por valor 
                         </h2>
                         <div class="flex justify-center items-center h-screen">
-                            <iframe src="{{ route('pdf.show', ['filename' => 'Prototipo de funciones y paso de parametros por valor, Beleche Alondra (1).pdf']) }}" 
+                            <iframe src="{{ asset('/pdf/Prototipo de funciones y paso de parametros por valor, Beleche Alondra (1).pdf') }}" 
                                 class="w-full h-full"></iframe>
                         </div>
                     </div>

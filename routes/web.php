@@ -16,14 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('inicio');
-
-Route::get('/pdf/{filename}', function ($filename) {
-    $path = public_path('pdfs/' . $filename);
-
-    if (file_exists($path)) {
-        $secureUrl = secure_asset('pdfs/' . $filename);
-        return redirect()->to($secureUrl);
-    } else {
-        abort(404);
-    }
-})->name('pdf.show');
